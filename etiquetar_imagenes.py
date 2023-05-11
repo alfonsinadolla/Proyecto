@@ -128,6 +128,3 @@ class ventanaEtiquetar:
             elif event == 'volver':
                 menu = menu_principal_ventana.VentanaMenu()
                 menu.iniciar_ventana()
-
-ventana= ventanaEtiquetar()
-ventana.iniciar_ventana()
