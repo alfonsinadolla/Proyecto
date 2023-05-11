@@ -22,6 +22,7 @@ class ventanaCreador:
         layout = [[sg.Column(left_col), sg.Column(right_col)]]
 
         window = sg.Window('Creador de Collage', layout, size=(800,600))
+        self.window = window
 
     def iniciar_ventana(self):
         # Event Loop
